@@ -1,0 +1,21 @@
+{
+  "name": "proyect-gestos-hospitalario",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión Hospitalaria con roles y base de datos",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.5.0",
+    "cors": "^2.8.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.21.2",
+    "express-session": "^1.4.19"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
